@@ -1,0 +1,205 @@
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  list-style: none; }
+
+.container, .header__container, .look__at__container, .your__reviews__container, .find__your__container, .footer__container {
+  margin: 0 auto; }
+
+.header__container {
+  width: 1440px; }
+
+.header {
+  background: url(../img/0.jpg) no-repeat;
+  border-radius: 0 50% 50% 0;
+  max-height: 850px; }
+  .header .nav {
+    padding-top: 50px; }
+    .header .nav ul {
+      display: flex; }
+      .header .nav ul li {
+        margin: 0 20px; }
+        .header .nav ul li a {
+          font-size: 20px;
+          color: #BFD5E3;
+          text-decoration: none;
+          font-weight: 300; }
+  .header .header_section {
+    display: flex;
+    flex-direction: column;
+    padding: 250px 0px 150px 300px;
+    font-size: 3em;
+    color: #ddd;
+    text-align: center;
+    max-width: 800px; }
+    .header .header_section_text {
+      font-family: Hind ,sans-serif; }
+    .header .header_section_button {
+      padding: 15px 30px;
+      color: gray;
+      background-color: transparent;
+      border: 1px solid gray;
+      cursor: pointer; }
+
+.look__at__container {
+  width: 900px; }
+
+.look__at__title {
+  margin-top: 30px;
+  font-family: Hind, sans-serif;
+  font-size: 50px;
+  font-weight: 300; }
+.look__at__tours {
+  margin: 30px 0px;
+  display: flex;
+  box-shadow: 0 0 10px gray; }
+  .look__at__tours h3 {
+    color: #8695a2;
+    font-size: 30px;
+    padding: 15px 15px 0px;
+    font-weight: 300;
+    font-family: Hind; }
+  .look__at__tours .first-img {
+    background: url(../img/1.jpg); }
+  .look__at__tours .second-img {
+    background: url(../img/2.jpg); }
+  .look__at__tours .third-img {
+    background: url(../img/3.jpg); }
+.look__at .look__at__tours__img {
+  flex: 1 0 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+.look__at .look__at__tours__text {
+  color: #395369;
+  padding: 0px 15px 15px;
+  text-align: left;
+  font-size: 20px; }
+
+.your__reviews__container {
+  width: 1100px; }
+
+.your__reviews {
+  background-color: #8D6F79; }
+  .your__reviews__content h2 {
+    color: #CBA2B0;
+    padding: 20px 0px;
+    font-family: Hind,sans-serif; }
+  .your__reviews__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 15px 15px;
+    gap: 20px;
+    padding: auto; }
+  .your__reviews__images__item {
+    background: #CBA2B0;
+    display: flex; }
+    .your__reviews__images__item div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .your__reviews__images__item img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      padding: 5px;
+      padding-right: 15px; }
+    .your__reviews__images__item p {
+      text-align: left;
+      color: #fff;
+      font-size: 12px;
+      padding: 10px 10px 10px 10px; }
+
+.find__your__container {
+  margin: 30px auto;
+  width: 750px;
+  height: 150px; }
+
+.find__your {
+  background: #8695A2; }
+  .find__your__title {
+    font-size: 22px;
+    font-family: Hind;
+    font-weight: 200;
+    padding-top: 30px;
+    color: #C1D3D8; }
+  .find__your div ol {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px; }
+    .find__your div ol li {
+      margin-right: 10px; }
+      .find__your div ol li input {
+        background-color: transparent;
+        border-color: transparent;
+        border-bottom: 1px solid #66717C; }
+        .find__your div ol li input:focus {
+          border: none; }
+    .find__your div ol select {
+      margin-left: 30px;
+      color: #66717C;
+      background-color: transparent;
+      border-color: transparent;
+      border-bottom: 1px solid #66717C; }
+      .find__your div ol select option {
+        background-color: #8695A2; }
+
+.footer__container {
+  width: 1440px; }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 230px;
+  padding: 20px 35px;
+  background: #3D5585;
+  text-align: left; }
+  .footer h3 {
+    color: #659AFE;
+    text-align: left; }
+  .footer .first__section p {
+    text-align: left; }
+  .footer .first__section .footer__social {
+    margin: 20px 0px;
+    display: flex;
+    gap: 20px; }
+    .footer .first__section .footer__social img {
+      width: 8%; }
+  .footer .first__section p {
+    padding-top: 10px;
+    color: #0C2763; }
+  .footer .second__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px; }
+    .footer .second__section ol {
+      padding-left: 15px;
+      padding-top: 10px; }
+      .footer .second__section ol li {
+        text-align: left; }
+        .footer .second__section ol li a {
+          text-decoration: none;
+          color: #477BDD; }
+  .footer .third__section h3 {
+    margin: 20px 0px;
+    color: black; }
+  .footer .third__section input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 0; }
+  .footer .third__section button {
+    color: #fff;
+    background: #0A275E;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 0; }
+  .footer .third__section .payment__methods__h3 {
+    color: #659AFE;
+    margin: 0;
+    margin-top: 10px; }
+  .footer .third__section .payment__images img {
+    width: 10%; }
